@@ -1,3 +1,16 @@
 .nav-link:hover{
 color:rgb(195, 0, 255) !important;
 }
+
+.c{
+    text-align: left;
+}
+.d-block{
+    height: 400px !important;
+}
+
+.c1{
+    border-radius: 45px !important;
+    background:blueviolet !important;
+    color: white !important;
+}
