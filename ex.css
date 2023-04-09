@@ -2,8 +2,65 @@
 color:rgb(195, 0, 255) !important;
 }
 
-.c{
+.text-start{
     text-align: left;
+    
 }
+.d-block{
+    height:500px;
+}
+.heading-carousel{
+    font-size: 40px;
+    font-weight: 700;
+}
+.para-carousel{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    }
+@media(max-width:760)  {
+    .heading-carousel{
+        font-size: 16px;
+        font-weight: 400;
+    }
+      .para-carousel{
+        font-size: 14px;
+        font-weight: 200;
+        
+    }
+}
+.cc{
+    transition:ease-in-out;
+}
+.cc:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
+}
+.card1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title{
+    color:#5e068a !important; 
+}
+.card{
+    height: 400px !important;
+    border: none !important;
+}
+  .k{
+    margin-top: 47px !important;
+  }
+  .btnn{
+    padding: 16px 27px;
+    border-radius: 45px;
+    margin-top: 60px;
+    margin-left: 635px;
+    border: 2px solid #5e068a;
+color: #5e068a;
+font-size: large;
+  }
+   .btnn:hover{
+    background-color: #5e068a;
+    color: white;
+   }
